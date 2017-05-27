@@ -138,7 +138,7 @@ chess.onclick=function(e){
                 myWins[k]++;
                 computerWins[k]=6;//异常情况，不统计。
                 if(myWins[k]==5){
-                    window.alert("你赢了！");
+                    window.alert("you win");
                     over=true;
                 }
             }
@@ -227,7 +227,7 @@ var computerAI=function(){
             computerWins[k]++;
             myWins[k]=6;//异常情况，不统计。
             if(computerWins[k]==5){
-                window.alert("计算机赢了！");
+                window.alert("computer win");
                 over=true;
             }
         }
